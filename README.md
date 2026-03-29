@@ -4,73 +4,63 @@
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
 </p>
 
-# 🌟 My Visionary
+# My Visionary
 
 ⚠️ **Work in Progress – The app is currently under development.**  
-Bu proje hala aktif olarak yazılmakta ve geliştirilmekte olan bir mobil uygulamadır. Google Play’e yüklenmeden önce özellikler tamamlanacaktır.
 
-**A Flutter-based productivity app for tracking daily tasks and long-term goals.**  
-
----
-
-## 🎯 Proje Amacı
-My Visionary, kullanıcıların hem **günlük sorumluluklarını** hem de **uzun vadeli hedeflerini** tek bir platform üzerinden planlayıp takip edebilmelerini sağlayan mobil üretkenlik uygulamasıdır.  
-Uygulama, hedef belirleme, görev yönetimi ve odaklanma sürelerini birleştirerek kullanıcıların disiplinli ve motive bir şekilde ilerlemesini destekler.
+My Visionary is a Flutter-based productivity app for tracking daily tasks and long-term goals. The app combines goal setting, daily task management, and focus tracking to help users stay disciplined and motivated.
 
 ---
 
-## 🚀 Temel Özellikler / Features
+## Project Overview
 
-### 👤 Kullanıcı Girişi
-- Email & Password ile kayıt olma  
-- Google ile giriş yapma  
-- Oturumun açık kalması  
-
-### 📊 Dashboard Sistemi
-- Birden fazla dashboard oluşturabilme  
-- Dashboard’lar hedef/yaşam alanlarını temsil eder (örn: “Fitness 2026”)  
-- Dashboard silme ve özelleştirme  
-- **Freemium Model:**
-  - Ücretsiz kullanıcı → maksimum 2 dashboard (ek dashboard için ödüllü reklam)  
-  - Premium kullanıcı → sınırsız dashboard  
-
-### 📝 Daily Task Modülü
-- Dashboard’a özel görev ekleme, tamamlama, silme  
-- Basit ilerleme takibi  
-
-### ⏱️ Pomodoro (Focus) Modülü
-- 25 dakikalık odak süresi  
-- Geri sayım sayacı  
-- Seans tamamlandığında bildirim  
-- Tamamlanan seans sayısının kaydı  
-
-### 💰 Monetizasyon
-- Freemium yapı  
-- Google AdMob Rewarded Ads (ödüllü reklamlar)  
-- Premium sürüm ile reklamsız kullanım, sınırsız dashboard ve gelişmiş istatistikler  
+My Visionary allows users to plan and track both their daily responsibilities and long-term goals on a single platform. Users can create dashboards for different areas of life, manage tasks, and monitor focus sessions through a Pomodoro timer.
 
 ---
 
-## 🛠️ Tech Stack / Teknolojiler
+## Features
 
-| Katman | Teknoloji |
-|--------|-----------|
-| Mobil | Flutter & Dart |
-| Platform | Android (iOS ilerleyen aşamada) |
-| Backend | Firebase Authentication, Cloud Firestore |
-| Monetizasyon | Google AdMob (Rewarded Ads) |
+### User Authentication
+- Sign up with email & password
+- Sign in with Google
+- Session persistence
+
+### Dashboard System
+- Multiple dashboards per user
+- Dashboards represent goals or life areas (e.g., “Fitness 2026”, “Career Development”)
+- Dashboard deletion
+- Freemium model:
+  - Free users: up to 2 dashboards (extra via rewarded ads)
+  - Premium users: unlimited dashboards
+
+### Daily Task Module
+- Add, complete, and delete tasks per dashboard
+- Simple progress tracking
+
+### Pomodoro Module
+- 25-minute focus sessions
+- Countdown timer
+- Notifications on session completion
+- Completed sessions logged
+
+### Monetization
+- Freemium structure
+- Google AdMob (Rewarded Ads)
+- Premium version: ad-free, unlimited dashboards, advanced statistics
 
 ---
 
-## 🏗️ Uygulama Mimarisi (Genel)
+## Tech Stack
 
-```text
-Login / Register
-        ↓
-Authentication (Firebase)
-        ↓
-Ana Sayfa (Dashboard Listesi)
-        ↓
-Dashboard Detay
-   ↓        ↓
-Daily Tasks   Pomodoro
+| Layer      | Technology |
+|-----------|------------|
+| Mobile    | Flutter & Dart |
+| Platform  | Android (iOS planned) |
+| Backend   | Firebase Authentication, Cloud Firestore |
+| Monetization | Google AdMob |
+
+---
+
+## Application Architecture
+<img width="357" height="681" alt="Screenshot 2026-03-08 at 08 18 11" src="https://github.com/user-attachments/assets/3cb89736-1d5a-47ed-b666-f761906b3ca4" />
+
