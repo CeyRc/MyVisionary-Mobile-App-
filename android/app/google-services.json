@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793579364924",
+    "project_id": "my-visionary-1ebb1",
+    "storage_bucket": "my-visionary-1ebb1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793579364924:android:fb7747e598577174f81939",
+        "android_client_info": {
+          "package_name": "com.ceylia.myvisionary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyEZ9GG_sr1l5VKs7sZdkHFyHY8TLefgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
